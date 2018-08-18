@@ -24,7 +24,7 @@ class Dice(Suite):
 
 
 def main():
-    suite = Dice([4, 6, 8, 12, 20])
+    suite = Dice([4, 6, 8, 10, 12, 20])
 
     suite.Update(6)
     print 'After one 6'
